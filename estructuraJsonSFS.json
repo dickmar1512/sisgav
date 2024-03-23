@@ -1,0 +1,163 @@
+{
+    "cabecera" : {
+        "tipOperacion" : "0101",
+        "fecEmision" : "2018-08-22",
+        "horEmision" : "12:12:14",
+        "fecVencimiento" : "2018-12-22",
+        "codLocalEmisor" : "0000",
+        "tipDocUsuario" : "6",
+        "numDocUsuario" : "20131312955",
+        "rznSocialUsuario" : "SUNAT & COMPAÑÍA",
+        "tipMoneda" : "PEN",
+        "sumTotTributos" : "38.36",
+        "sumTotValVenta" : "200.00",
+        "sumPrecioVenta" : "238.36",
+        "sumDescTotal" : "0.00",
+        "sumOtrosCargos" : "0.00",
+        "sumTotalAnticipos" : "0.00",
+        "sumImpVenta" : "238.36",
+        "ublVersionId" : "2.1",
+        "customizationId" : "2.0"
+    },
+    "variablesGlobales" : [{
+            "tipVariableGlobal" : "true",
+            "codTipoVariableGlobal" : "51",
+            "porVariableGlobal" : "0.03",
+            "monMontoVariableGlobal" : "PEN",
+            "mtoVariableGlobal" : "3.00",
+            "monBaseImponibleVariableGlobal" : "PEN",
+            "mtoBaseImpVariableGlobal" : "100.00"
+        },
+        {
+            "tipVariableGlobal" : "true",
+            "codTipoVariableGlobal" : "50",
+            "porVariableGlobal" : "0.01",
+            "monMontoVariableGlobal" : "PEN",
+            "mtoVariableGlobal" : "1.00",
+            "monBaseImponibleVariableGlobal" : "PEN",
+            "mtoBaseImpVariableGlobal" : "100.00"
+        }
+    ],
+    "detalle" : [{
+            "codUnidadMedida" : "NIU",
+            "ctdUnidadItem" : "1",
+            "codProducto" : "COD001",
+            "codProductoSUNAT" : "",
+            "desItem" : "ITEM 1 - Sujeto a detraciones. Características: 1.- En variablesGlobales se informan dos cargos (true) 50 Cargos globales que no afectan la base imponible del IGV IVAP y 51 Percepción venta interna",
+            "mtoValorUnitario" : "100.00",
+            "sumTotTributosItem" : "18.00",
+            
+            "codTriIGV" : "1000",
+            "mtoIgvItem" : "18.00",
+            "mtoBaseIgvItem" : "100.00",
+            "nomTributoIgvItem" : "IGV",
+            "codTipTributoIgvItem" : "VAT",         
+            "tipAfeIGV" : "10",
+            "porIgvItem" : "18.00",
+            
+            "codTriISC" : "-",
+            "mtoIscItem" : "0.00",
+            "mtoBaseIscItem" : "0.00",
+            "nomTributoIscItem" : "ISC",
+            "codTipTributoIscItem" : "EXC",
+            "tipSisISC" : "1",
+            "porIscItem" : "0.00",
+            
+            "mtoPrecioVentaUnitario" : "118.00",
+            "mtoValorVentaItem" : "100",
+            "mtoValorReferencialUnitario" : "0.00"
+        }, {
+            "codUnidadMedida" : "NIU",
+            "ctdUnidadItem" : "1",
+            "codProducto" : "COD002",
+            "codProductoSUNAT" : "",
+            "desItem" : "ITEM 2 - gastos de combustible. Caracterísitcas: 1.- Afecto a ISC e IGV(ver que tambien informamos en el conjunto 'tributos' los totales de IGV e ISC. 2.- En adicionalDetalle se agrega informacion de Detracciones, hospedaje.",
+            "mtoValorUnitario" : "100.00",
+            "sumTotTributosItem" : "20.36",
+            
+            "codTriIGV" : "1000",
+            "mtoIgvItem" : "18.36",
+            "mtoBaseIgvItem" : "102.00",
+            "nomTributoIgvItem" : "IGV",
+            "codTipTributoIgvItem" : "VAT",
+            "tipAfeIGV" : "10",
+            "porIgvItem" : "18.00",
+            
+            "codTriISC" : "2000",
+            "mtoIscItem" : "2.00",
+            "mtoBaseIscItem" : "100.00",
+            "nomTributoIscItem" : "ISC",
+            "codTipTributoIscItem" : "EXC",
+            "tipSisISC" : "01",
+            "porIscItem" : "2.00",
+            
+            "mtoPrecioVentaUnitario" : "120.36",
+            "mtoValorVentaItem" : "100",
+            "mtoValorReferencialUnitario" : "0.00"
+        }
+    ],
+    "leyendas" : [{
+            "codLeyenda" : "1000",
+            "desLeyenda" : "CIENTO DIECIOCHO CON 00 /100 SOLES"
+        }
+    ],
+    "adicionalDetalle" : [{
+            "idLinea" : "2",
+            "nomPropiedad" : "Detracciones: Recursos Hidrobiológicos - Fecha de descarga",
+            "codPropiedad" : "3005",
+            "valPropiedad" : "",
+            "fecInicioPropiedad" : "2018-07-02",
+            "horInicioPropiedad" : "",
+            "fecFinPropiedad" : "",
+            "numDiasPropiedad" : ""
+        }, {
+            "idLinea" : "2",
+            "nomPropiedad" : "Beneficio Hospedajes: Fecha de Salida del Establecimiento",
+            "codPropiedad" : "4004",
+            "valPropiedad" : "",
+            "fecInicioPropiedad" : "2018-07-02",
+            "fecFinPropiedad" : "2018-07-02",
+            "numDiasPropiedad" : ""
+        }, {
+            "idLinea" : "2",
+            "nomPropiedad" : "Beneficio Hospedajes: Hora de Inicio",
+            "codPropiedad" : "4047",
+            "valPropiedad" : "",
+            "fecInicioPropiedad" : "",
+            "horInicioPropiedad" : "07:00:00",
+            "fecFinPropiedad" : "",
+            "numDiasPropiedad" : ""
+        }, {
+            "idLinea" : "2",
+            "nomPropiedad" : "Beneficio Hospedajes: Número de Días de Permanencia",
+            "codPropiedad" : "4005",
+            "valPropiedad" : "",
+            "fecInicioPropiedad" : "",
+            "horInicioPropiedad" : "",
+            "fecFinPropiedad" : "",
+            "numDiasPropiedad" : "12"
+        }, {
+            "idLinea" : "2",
+            "nomPropiedad" : "Gastos Art. 37 Renta: N°ro de Placa",
+            "codPropiedad" : "7000",
+            "valPropiedad" : "B6F-045",
+            "codBienPropiedad" : "-"
+        }
+    ],
+    "tributos" : [{
+            "ideTributo" : "1000",
+            "nomTributo" : "IGV",
+            "codTipTributo" : "VAT",
+            "codCatTributo" : "S",
+            "mtoBaseImponible" : "200.00",
+            "mtoTributo" : "36.00"
+        }, {
+            "ideTributo" : "2000",
+            "nomTributo" : "ISC",
+            "codTipTributo" : "EXC",
+            "codCatTributo" : "S",
+            "mtoBaseImponible" : "118.00",
+            "mtoTributo" : "2.36"
+        }
+    ]
+}
